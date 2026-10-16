@@ -1,0 +1,26 @@
+# Python
+.venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Local databases and trained model artifacts
+*.db
+*.sqlite
+*.sqlite3
+backend/models/*.pt
+
+# Local IDE and tooling files
+.vscode/
+*.tsbuildinfo
